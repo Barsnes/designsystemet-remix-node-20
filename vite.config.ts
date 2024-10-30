@@ -9,6 +9,13 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  ssr: {
+    noExternal: [
+      "@digdir/designsystemet-react", 
+      "@digdir/designsystemet-theme", 
+      "@digdir/designsystemet-css"
+    ],
+  },
   plugins: [
     remix({
       future: {

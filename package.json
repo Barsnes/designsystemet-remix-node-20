@@ -11,6 +11,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@digdir/designsystemet-css": "^1.0.0-next.35",
+    "@digdir/designsystemet-react": "^1.0.0-next.35",
+    "@digdir/designsystemet-theme": "^1.0.0-next.35",
     "@remix-run/node": "^2.13.1",
     "@remix-run/react": "^2.13.1",
     "@remix-run/serve": "^2.13.1",
